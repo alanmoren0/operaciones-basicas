@@ -1,0 +1,83 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.nav-tab{
+    border: 3px solid black;
+    border-radius: 0 0 5px 5px;
+}
+
+.nav-tab h1{
+    margin-left: 10px;
+}
+
+section{
+    margin-top: 10px;
+}
+
+.operation-container{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.operators{
+    width: 50%;
+}
+
+.number-cantainer{
+    display: flex;
+    flex-direction: column;
+}
+.number-cantainer input{
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.operators-options{
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+}
+
+.primary-button{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.resultado{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div-resultado{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h1resultado{
+    font-size: var(--lg);
+    font-weight: 900;
+    text-align: center;
+}

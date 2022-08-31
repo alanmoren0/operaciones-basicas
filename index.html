@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<nav class="nav-tab">
+		<h1>Calculadora</h1>
+	</nav>
+
+	<section>
+		<div class="operation-container">
+			<div class="operators">
+				<div class="number-cantainer">
+					<label>número 1</label>
+					<input type="text" id="first-number">
+				</div>
+				<div class="number-cantainer">
+					<label>número 2</label>
+					<input type="text" id="second-number">
+				</div>
+			</div>
+			<div class="operators-options">
+				<label> <input id="radio-plus" type="radio" name="tipos-operacion" checked>Suma</label>
+				<label> <input id="radio-minus" type="radio" name="tipos-operacion">Resta</label>
+				<label> <input id="radio-div" type="radio" name="tipos-operacion">División</label>
+				<label> <input id="radio-mul" type="radio" name="tipos-operacion">Multiplicación</label>
+			</div>
+		</div>
+		<button class="primary-button">Operar</button>
+	</section>
+
+	<section class="resultado">
+		<div class="div-resultado">
+			<p>El resultado de la operación es:</p>
+			<h1 class="h1resultado"></h1>
+		</div>
+	</section>
+
+</body>
+<footer><script src="./main.js"></script></footer>
+</html>
